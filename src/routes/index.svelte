@@ -29,6 +29,7 @@
 		abreast of our progress – <em>from a safe distance</em> – by signing up to our newsletter:
 	</p>
 	<form name="newsletter" method="POST" data-netlify="true">
+		<input type="hidden" name="form-name" value="newsletter" />
 		<div class="input-with-button">
 			<label class="unsightly" for="email-form">Your Email</label>
 			<input id="email-form" type="email" name="email" placeholder="email address" />
