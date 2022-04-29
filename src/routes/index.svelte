@@ -28,7 +28,7 @@
 		As we thrall away, risking life and limb, to get this building put together, one can keep
 		abreast of our progress – <em>from a safe distance</em> – by signing up to our newsletter:
 	</p>
-	<form name="newsletter" action="/success" method="post" data-netlify="true">
+	<form name="newsletter" action="/success" method="POST" data-netlify="true">
 		<div class="input-with-button">
 			<label class="unsightly" for="email-form">Your Email</label>
 			<input id="email-form" type="email" name="email" placeholder="email address" />
