@@ -1,0 +1,56 @@
+.unsightly {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+section {
+	&.broad {
+		padding-inline: 1rem;
+	}
+	&.narrow {
+		padding-inline: 2rem;
+	}
+	&.full {
+		padding-inline: 0rem;
+	}
+}
+section:first-of-type {
+	margin-top: 2rem;
+}
+form {
+	margin-top: 1em;
+	width: 100%;
+}
+.input-with-button {
+	$brand: #6b0437;
+	display: flex;
+	width: 100%;
+	font-family: 'Inter';
+	font-size: 1.25rem;
+	border-radius: 0.25rem;
+	overflow: hidden;
+
+	input {
+		min-width: 0;
+		border: none;
+		padding-inline-start: 0.25em;
+		margin: 0;
+		background-color: hsl(0 0% 100% / 0.2);
+		border-bottom: 2px solid $brand;
+		outline: none;
+	}
+	button {
+		background-color: $brand;
+		border: none;
+		color: white;
+		width: fit-content;
+		padding-block: 0.5em;
+		padding-inline: 1rem;
+	}
+}
